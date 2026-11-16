@@ -1,0 +1,14 @@
+header {
+            display: flex;
+            background-color: blueviolet;
+            align-items: center;
+            font-size: 24px;
+            padding: 15px;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #cadbf1;
+            color: #d73d3d;
+            line-height: 1.6;
+        }

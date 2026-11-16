@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+         content="width=device-width,
+         initial-scale=1" />
+         <title> Campus Notices </title>
+         
+         
+            <link rel="stylesheet" href="styles.css" />
+            
+    </head>
+    <body>
+        <header>"Don Mariano Marcos Memorial State University"</header>
+        <a href="notices.html">Read notices</a>
+        <a href="notices.html">Home</a>
+        <a href="notices.html">About</a>
+        <a href="notices.html">Age</a>
+        <main>
+        <section class="noticed-card">
+
+        </section>
+        <aside id="title2">
+            <form action ="/api/noticesd" method="post">
+                <label for=" title" > title</label>
+                <input id="title" name="title"
+                    type= "text" required />
+                
+                <label for="msg"> message</label>
+                <textarea id ="msg" name=" message"></textarea>
+
+                <button type="submit"> post notice</button>
+            </form>
+        </aside>
+            <h1>Campus Notices</h1>
+            <img src="ball.jpeg"> 
+             <ol>
+                <Li>Adobo</Li>
+                 <Li>Hatdog</Li>
+                 <Li>sinigang</Li>
+                 <Li>banana</Li>
+            </ol>
+            <ul>
+             <Li>burger</Li>
+             <Li>matcha</Li>
+            </ul>
+        </main>
+        <footer>College of Computer Science</footer>
+    </body>
+</html>
